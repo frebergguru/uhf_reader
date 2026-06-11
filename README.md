@@ -1,5 +1,7 @@
 # uhf_reader
 
+[![build](https://github.com/frebergguru/uhf_reader/actions/workflows/ci.yml/badge.svg)](https://github.com/frebergguru/uhf_reader/actions/workflows/ci.yml)
+
 A C toolkit for the **PiSwords UHF reader/writer** whose RF module reports as
 **UCM601** (EPC C1G2 reader/writer/copier). It connects through a `1a86:fe0c`
 QinHeng USB-serial bridge (`/dev/ttyACM*`) and speaks the **Impinj R2000
