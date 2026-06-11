@@ -1,0 +1,11 @@
+# build artifacts
+*.o
+*.a
+uhf_probe
+uhf_scan
+uhf_console
+
+# local / vendor (not part of the toolkit)
+.claude/
+PiswordsUHF2/
+run-vendor-gui.sh
