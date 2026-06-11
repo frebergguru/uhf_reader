@@ -1,0 +1,17 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: make
+      - name: Check artifacts
+        run: |
+          ls -l libuhf.a uhf_probe uhf_scan uhf_console
+          file uhf_probe uhf_scan uhf_console
